@@ -4,12 +4,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
 
 <body>
+    <div id="container">
+        <div id="sidebar">
+            <nav>
+                <div id="logo">
+                    <img src="images/icons/view-dashboard.svg" alt="dashboard icon">Dashboard
+                </div>
+                <ul>
+                    <li><a href="#" class="nav-link"><img src="images/icons/home.svg" alt="home icon"
+                                class="sidebar-icon">Home</a></li>
+                    <li><a href="#" class="nav-link"><img src="images/icons/card-account-details-outline.svg" alt="profile icon"
+                                class="sidebar-icon">Profile</a></li>
+                    <li><a href="#" class="nav-link"><img src="images/icons/message-reply.svg" alt="messages icon"
+                                class="sidebar-icon">Messages</a></li>
+                    <li><a href="#" class="nav-link"><img src="images/icons/clock-time-three.svg" alt="history icon"
+                                class="sidebar-icon">History</a></li>
+                    <li><a href="#" class="nav-link"><img src="images/icons/note-multiple.svg" alt="tasks icon"
+                                class="sidebar-icon">Tasks</a></li>
+                    <li><a href="#" class="nav-link"><img src="images/icons/account-group.svg" alt="communities icon"
+                                class="sidebar-icon">Communities</a></li>
+                </ul>
 
+                <ul>
+                    <li><a href="#" class="nav-link"><img src="images/icons/cog.svg" alt="settings icon"
+                                class="sidebar-icon">Settings</a></li>
+                    <li><a href="#" class="nav-link"><img src="images/icons/help-box.svg" alt="support icon"
+                                class="sidebar-icon">Support</a></li>
+                    <li><a href="#" class="nav-link"><img src="images/icons/shield-check.svg" alt="privacy icon"
+                                class="sidebar-icon">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="header">
+            <div id="header-first-row">
+                <div class="search-container">
+                    <img src="images/icons/magnify.svg" alt="search icon" class="header-icon">
+                    <input type="search" name="search" id="search">
+                </div>
+                <div class="notifications-container">
+                    <img src="images/icons/bell-ring-outline.svg" alt="notification icon" class="header-icon">
+                    <img src="images/avatars/avatar1.png" alt="Profile picture" class="profile-pic-small">
+                    <div class="user-name">Morgan Oakley</div>
+                </div>
+            </div>
+
+            <div id="header-second-row">
+                <div class="user-info-container">
+                    <img src="images/avatars/avatar1.png" alt="Profile picture" class="profile-pic-large">
+                    <div class="hi-there">
+                        <div>Hi there,</div>
+                        <div class="user-name">Morgan Oakley (@morgan)</div>
+                    </div>
+                </div>
+                <div class="user-actions-container">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-content">
+            <div class="your-projects">
+                <div class="section-name">Your Projects</div>
+                <div class="projects-container">
+                    <div class="project-item">
+                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                sit
+                                amet justo nec velit fringilla congue. Suspendisse convallis, magna at sagittis porta,
+                                sem
+                                leo
+                                commodo ipsum, in efficitur nunc lorem non lectus.</p>
+                        </div>
+                        <ul class="project-buttons">
+                            <li><a href="#"><img src="images/icons/star-plus-outline.svg" alt="star icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/eye-plus-outline.svg" alt="watch icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/share-variant-outline.svg" alt="share icon"
+                                        class="project-button"></a></li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                sit
+                                amet justo nec velit fringilla congue. Suspendisse convallis, magna at sagittis porta,
+                                sem
+                                leo
+                                commodo ipsum, in efficitur nunc lorem non lectus.</p>
+                        </div>
+                        <ul class="project-buttons">
+                            <li><a href="#"><img src="images/icons/star-plus-outline.svg" alt="star icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/eye-plus-outline.svg" alt="watch icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/share-variant-outline.svg" alt="share icon"
+                                        class="project-button"></a></li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                sit
+                                amet justo nec velit fringilla congue. Suspendisse convallis, magna at sagittis porta,
+                                sem
+                                leo
+                                commodo ipsum, in efficitur nunc lorem non lectus.</p>
+                        </div>
+                        <ul class="project-buttons">
+                            <li><a href="#"><img src="images/icons/star-plus-outline.svg" alt="star icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/eye-plus-outline.svg" alt="watch icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/share-variant-outline.svg" alt="share icon"
+                                        class="project-button"></a></li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                sit
+                                amet justo nec velit fringilla congue. Suspendisse convallis, magna at sagittis porta,
+                                sem
+                                leo
+                                commodo ipsum, in efficitur nunc lorem non lectus.</p>
+                        </div>
+                        <ul class="project-buttons">
+                            <li><a href="#"><img src="images/icons/star-plus-outline.svg" alt="star icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/eye-plus-outline.svg" alt="watch icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/share-variant-outline.svg" alt="share icon"
+                                        class="project-button"></a></li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                sit
+                                amet justo nec velit fringilla congue. Suspendisse convallis, magna at sagittis porta,
+                                sem
+                                leo
+                                commodo ipsum, in efficitur nunc lorem non lectus.</p>
+                        </div>
+                        <ul class="project-buttons">
+                            <li><a href="#"><img src="images/icons/star-plus-outline.svg" alt="star icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/eye-plus-outline.svg" alt="watch icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/share-variant-outline.svg" alt="share icon"
+                                        class="project-button"></a></li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-name">Super Cool Project</div>
+                        <div class="project-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                sit
+                                amet justo nec velit fringilla congue. Suspendisse convallis, magna at sagittis porta,
+                                sem
+                                leo
+                                commodo ipsum, in efficitur nunc lorem non lectus.</p>
+                        </div>
+                        <ul class="project-buttons">
+                            <li><a href="#"><img src="images/icons/star-plus-outline.svg" alt="star icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/eye-plus-outline.svg" alt="watch icon"
+                                        class="project-button"></a></li>
+                            <li><a href="#"><img src="images/icons/share-variant-outline.svg" alt="share icon"
+                                        class="project-button"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="announcements">
+                <div class="section-name">Announcements</div>
+                <div class="announcements-container">
+                    <div class="announcement-item">
+                        <div class="announcement-title">Site Maintenance</div>
+                        <div class="announcement-description">Cras gravida tempus justo at hendrerit. Integer at maximus
+                            felis...</div>
+                    </div>
+                    <div class="announcement-item">
+                        <div class="announcement-title">Site Maintenance</div>
+                        <div class="announcement-description">Cras gravida tempus justo at hendrerit. Integer at maximus
+                            felis...</div>
+                    </div>
+                    <div class="announcement-item">
+                        <div class="announcement-title">Site Maintenance</div>
+                        <div class="announcement-description">Cras gravida tempus justo at hendrerit. Integer at maximus
+                            felis...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending">
+                <div class="section-name">Trending</div>
+                <div class="trending-container">
+                    <div class="trending-item">
+                        <img src="images/avatars/avatar2.png" alt="trending user avatar" class="trending-pfp">
+                        <div class="trending-details">
+                            <div class="handle">@tegan</div>
+                            <div class="user-description">World Peace Builder</div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/avatars/avatar1.png" alt="trending user avatar" class="trending-pfp">
+                        <div class="trending-details">
+                            <div class="handle">@morgan</div>
+                            <div class="user-description">Super Cool Project</div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/avatars/avatar3.png" alt="trending user avatar" class="trending-pfp">
+                        <div class="trending-details">
+                            <div class="handle">@kendall</div>
+                            <div class="user-description">Life Changing App</div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/avatars/avatar4.png" alt="trending user avatar" class="trending-pfp">
+                        <div class="trending-details">
+                            <div class="handle">@alex</div>
+                            <div class="user-description">No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
